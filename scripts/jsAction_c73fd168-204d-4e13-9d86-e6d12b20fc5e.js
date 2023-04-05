@@ -4,7 +4,7 @@
 // is available in the appendix of the documentation.
 
 // Get variable value from VariableManager
-var myVar = context.variableManager.getValue("myVar");
+var myVar = new_context.variableManager.getValue("myVar"); //changed line
 if (myVar==null) {
         context.fail("Variable 'myVar' not found");
 }
